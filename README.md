@@ -5,7 +5,7 @@ The dataset that I’m working with is MovieLens, one of the most common dataset
  - Content Based Recommendation System:
    *  A content based recommender works with data that the user provides, either explicitly movie ratings for the MovieLens dataset.   Based on that data, a user profile is generated, which is then used to make suggestions to the user. As the user provides more inputs or takes actions on the recommendations, the engine becomes more and more accurate.
    * The Math:
-    - The concepts of Term Frequency (TF) and Inverse Document Frequency (IDF) are used in information retrieval systems and also   content based filtering mechanisms (such as a content based recommender).
+     - The concepts of Term Frequency (TF) and Inverse Document Frequency (IDF) are used in information retrieval systems and also   content based filtering mechanisms (such as a content based recommender).
     - After calculating TF-IDF scores, how do we determine which items are closer to each other, rather closer to the user profile? This is accomplished using the Vector Space Model which computes the proximity based on the angle between the vectors.-
     - I will be using the Cosine Similarity to calculate a numeric quantity that denotes the similarity between two movies.
      
