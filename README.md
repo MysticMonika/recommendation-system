@@ -24,13 +24,13 @@ The dataset that I’m working with is MovieLens, one of the most common dataset
      - Pearson Similarity: Similarity is the pearson coefficient between the two vectors. For the purpose of diversity, I will use Pearson Similarity in this implementation.
    * A well-known matrix factorization method is Singular value decomposition (SVD). At a high level, SVD is an algorithm that decomposes a matrix A into the best lower rank (i.e. smaller/simpler) approximation of the original matrix A. 
    * The Evaluation:
-     There are many evaluation metrics but one of the most popular metric used to evaluate accuracy of predicted ratings is Root Mean Squared Error (RMSE). I will use the mean_square_error (MSE) function from sklearn, where the RMSE is just the square root of MSE. I get a mean Root Mean Square Error of ***0.8736*** which is pretty good.  
+     - There are many evaluation metrics but one of the most popular metric used to evaluate accuracy of predicted ratings is Root Mean Squared Error (RMSE). I will use the mean_square_error (MSE) function from sklearn, where the RMSE is just the square root of MSE. I get a mean Root Mean Square Error of ***0.8736*** which is pretty good.  
       
  - Hybrid Based Recommendation System:
-   In this section, I will try to build a simple hybrid recommender that brings together techniques we have implemented in the content based and collaborative filter based engines. This is how it will work:
-    * Input: User ID and the Title of a Movie
-    * Output: Similar movies sorted on the basis of expected ratings by that particular user.
-   We see that for our hybrid recommender, we get different recommendations for different users although the movie is the same. Hence, our recommendations are more personalized and tailored towards particular users.
+   * In this section, I will try to build a simple hybrid recommender that brings together techniques we have implemented in the content based and collaborative filter based engines. This is how it will work:
+   * Input: User ID and the Title of a Movie
+   * Output: Similar movies sorted on the basis of expected ratings by that particular user.
+   * We see that for our hybrid recommender, we get different recommendations for different users although the movie is the same. Hence, our recommendations are more personalized and tailored towards particular users.
 
 
    
